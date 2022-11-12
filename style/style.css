@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #000;
+}
+@font-face {
+    font-family:Regular ;
+    src: url(../fonts/FiraGO-Regular\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: SemiBold;
+    src: url(../fonts/FiraGO-SemiBold.ttf);
+}
+
+.satauri{
+    width: 100%;
+    height: 100px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    color: #ffffff;
+    font-size: 20px;
+    font-family:Regular ;
+    
+}
+
+header h1 a{
+    color: #ffffff;
+}
+
+header ul{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul li a{
+    font-family:Regular ;
+    padding: 5px 10px;
+    color: #ffffff;
+}
+
+.main a{
+    font-family: SemiBold;
+    color: #ffffff;
+}
+
+.xazi{
+    width: 100%;
+    height: 4px;
+    background-color: #ffffff;
+    margin-bottom: 38px;
+    
+}
+
+/* ----------------index.main----------------- */
+
+main h2{
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 100px;
+    margin: 50px auto;
+    margin-left: 100px;
+    font-family: semibold ;
+}
+
+.mtavari{
+    display: flex;
+    width: 100%;
+    padding: 40px;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.text{
+    width: 33.33%;
+    color: #ffffff;
+    margin-top: 135px;
+    font-family: regular;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.statia{
+    width: 33.33%;
+}
+
+.tavi{
+    color: #ffffff;
+    margin: 10px;
+    font-size: 20px;
+    font-family: regular;
+}
+
+.surati{
+    height: 628px;
+    overflow: hidden;
+    margin: 15px;
+   margin-bottom: 100px;
+}
+
+.surati img{
+    width: 100%;
+}
+.surati .img{
+    width: 225%;
+    margin-left: -250px;
+}
+
+/* -------------index.footer-------------- */
+.bolo{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.fa-circle-question{
+    font-size: 100px;
+    color: #ffffff;
+    margin-left: 112px;
+    margin-right: 12px;
+    
+}
+.text1{
+    font-family: semibold ;
+    font-size: 18px;
+
+}
+
+/* -------------produkcia.html ----------------*/
+
+.produkcia{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 47px;
+    padding-right: 60px;
+    align-items: flex-start;
+}
+
+.flaerebi{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.photo{
+    width: 200px;
+    height: 270px;
+    margin-bottom: 72px;
+
+
+}
+
+.photo img{
+    width: 100%;
+    
+}
+
+.photo .lari{
+    color: #ffffff;
+    font-size: 20px;
+    margin: 5px 80px;
+    margin-bottom: 40px;
+}
+
+.teksti{
+    margin-top: 60px;
+} 
+
+.teksti li{
+    text-align: right;
+}
+
+
+.teksti li{
+    color: #ffffff;
+    font-family: regular;
+    margin-bottom: 30px;
+    font-size: 20px;
+
+}
+
+/* ---------------konverti.html ----------------*/
+
+.inner{
+    height: 724px;
+    display: flex;
+}
+
+.innerphoto{
+    width: 400px;
+    height: 540px;
+    margin-left: 60px;
+}
+
+.innerphoto img{
+    width: 100%;
+}
+
+.kviteli{
+    font-family: semibold ;
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: 50px;
+    margin-bottom: 46px;
+}
+
+.fasi{
+    font-family: regular;
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 50px;
+    line-height: 30px;
+}
+
+.ferebi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wreebi{
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(246, 176, 88, 1);
+}
+.circle1{
+    background-color: rgba(62, 147, 246, 1);
+    
+}
+
+.circle2{
+    background-color: rgba(255, 112, 112, 1);
+}
+.circle3{
+    background-color: rgba(232, 232, 232, 1);
+}
+
+.sheukvete{
+    color: #ffffff;
+    font-size: 24px;
+    font-family: semibold ;
+    margin-left: 50px;
+    margin-top: 400px;
+    font-family: regular;
+
+
+
+}
